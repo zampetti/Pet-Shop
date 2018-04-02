@@ -1,0 +1,107 @@
+#container1 {
+    float: left;
+    width: 50%;
+    margin: 0 0 5% 3%;
+}
+body h1 {
+    background-color: lightblue;
+    width: 50%;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 20px;
+    font-family: fantasy;
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+
+#form {
+    background-color: lightblue;
+    width: 100%;
+    padding: 3%;
+    border-radius: 20px;
+    font-size: xx-large;
+}
+
+#table {
+    padding: 10%;
+    font-family: fantasy;
+    font-variant: small-caps;
+}
+#table tr td input {
+        margin: 1%;
+    }
+
+#container2 {
+    float: right;
+    height: 340px;
+    width: 20%;
+    background-color: beige;
+    margin: 5% 15% 5% 0;
+    border-radius: 20px;
+}
+#container2 #slideshow #no {
+    padding: 40% 0;
+    text-align: center;
+    font-family: fantasy;
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+#container2 #slideshow #services {
+    padding: 30% 0;
+    text-align: center;
+    font-family: fantasy;
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+#container2 table {
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #table tr td input {
+        width: 80%;
+        box-sizing: border-box;
+    }
+    #container2 {
+        float: right;
+        height: 340px;
+        width: 30%;
+        background-color: beige;
+        margin: 10% 5% 5% 0;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 520px) {
+    #container1 {
+        float: none;
+        width: 95%;
+    }
+    body h1 {
+        margin: 5% 1%;
+        width: 80%;
+        padding: 1%;
+        text-align: center;
+        border-radius: 20px;
+        font-family: fantasy;
+        font-variant: small-caps;
+}
+    #form {
+        margin: 5% 1%;
+        width: 90%;
+        padding: 2%;
+        font-size: small;
+    }
+    #table tr td input {
+        width: 80%;
+        box-sizing: border-box;
+    }
+    #table tr td textarea #Message {
+        height: 50px;
+        width: 80%;
+    }
+    #container2 {
+        float: none;
+        width: 95%;
+        margin: auto;
+    }
+}

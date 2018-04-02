@@ -1,0 +1,308 @@
+#header {
+    background-color: lightblue;
+}
+#headerlogo {
+	float: left;
+    width: 25%;
+    margin: 2%;
+}
+@media screen and (max-width: 768px) {
+    #headerlogo {
+        width: 84%;
+        margin: 2% 8% 2% 8%;
+    }
+}
+#headerimage {
+    float: right;
+    width: 25%;
+    margin: 2% 6% 0.5% 2%;
+}
+@media screen and (max-width: 768px) {
+    #headerimage {
+        display: none;
+    }
+}
+
+#menu {
+    clear: left;
+}
+#mainmenu {
+    background-color: black;
+    height: 55px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Helvetica, Verdana, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#mainmenu a {
+	padding: 2%;
+	float: left;
+	text-decoration: none;
+    width: auto;
+	background-attachment: url(Images/menudivider.png);
+	background-repeat: no-repeat;
+    color: fuchsia;
+}
+#mainmenu li {
+	display: inline;
+}
+#mainmenu a:visited, #mainmenu a:active {
+	text-decoration: none;
+	color: fuchsia;
+}
+#mainmenu .active a {
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #fff;
+}
+#mainmenu a:hover {
+	color: #fff;
+}
+.slicknav_menu {
+    display: none;
+}
+@media screen and (max-width: 520px) {
+    .slicknav_menu {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+    #mainmenu {
+        display: none;
+    }
+}
+
+a {
+    color: blue;
+}
+
+#shareLinks {
+    float: left;
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 5%;
+    margin: 1%;
+    padding: 0.2%;
+}
+#share-buttons img {
+    width: 65%;
+    margin: auto;
+    padding: 10% 0;
+    border: 0;
+    box-shadow: 0;
+    display: block;
+}
+@media screen and (max-width: 520px) {
+   #shareLinks {
+        float: none;
+        background-color: dimgrey;
+        width: 98%;
+    }
+    #share-buttons img {
+        display: inline;
+        width: 10%;
+        padding: 1.5%;
+    }
+}
+
+#container2 {
+    float: right;
+    width: 92%;
+    padding-bottom: 3%;
+}
+#h1 {
+    font-family: fantasy;
+    font-size: xx-large;
+    margin: 3% 0 3% 0;
+    color: crimson;
+}
+#content1 img {
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+}
+#content1 #josh {
+    float: right;
+    width: 40%;
+    border-radius: 20px;
+    background-color: lightblue;
+    font-family: sans-serif;
+    color: fuchsia;
+    margin: 5% 5% 0 0;
+    padding: 3%;
+}
+
+#content1 #josh h2 {
+    text-decoration: underline;
+    color: crimson;
+    padding: 1%;
+}
+    
+#content1 #josh p {
+    text-align: justify;
+    width: auto;
+}
+#content1 #josh img {
+    float: right;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+@media screen and (max-width: 768px) {
+#content1 #josh img {
+    display: none;
+}
+}
+@media screen and (max-width: 520px) {
+#content1 img {
+    display: none;
+}
+    #content1 #josh {
+        float: none;
+        width: 85%;
+    }
+}
+#content2 {
+    margin: 0;
+}
+#content2 img {
+    float: right;
+    margin: 5% 5% 0 0;
+}
+#content2 #shannon h2 {
+    text-decoration: underline;
+    color: crimson;
+    padding: 1%;
+}
+#content2 #shannon p {
+    text-align: justify;
+    margin: auto;
+}
+#content2 #shannon {
+    display: block;
+    position: relative;
+    float: left;
+    width: 40%;
+    border-radius: 20px;
+    background-color: lightblue;
+    font-family: sans-serif;
+    color: fuchsia;
+    margin: 5% 0 0 0;
+    padding: 3%;
+}
+#content2 #shannon img {
+    float: right;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+@media screen and (max-width: 768px) {
+#content2 #shannon img {
+    display: none;
+}
+}
+@media screen and (max-width: 520px) {
+#content2 img {
+    display: none;
+}
+    #content2 #shannon {
+        float: none;
+        width: 85%;
+    }
+}
+#content3 {
+    clear:both;
+}
+#content3 img {
+    float: left;
+}
+#content3 #duck {
+    margin: 3% 0 0 0;
+}
+@media screen and (max-width: 768px) {
+#content3 #duck {
+    float: left;
+    margin: 5% 0 0 20%;
+}
+}
+@media screen and (max-width: 768px) {
+#dumbass {
+    float: right;
+    margin: 5% 0 0 0;
+}
+}
+@media screen and (max-width: 520px) {
+#content3 #duck {
+    float: left;
+    margin: 5% 0 0 3%;
+}
+}
+@media screen and (max-width: 520px) {
+#dumbass {
+    float: right;
+    margin: 0;
+}
+}
+#content3 #guapo h2 {
+    text-decoration: underline;
+    color: crimson;
+    margin: 1%;
+}
+#content3 #guapo p {
+    text-align: justify;
+    margin: 0 auto;
+}
+#content3 #guapo {
+    display: block;
+    position: relative;
+    float: right;
+    width: 55%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: lightblue;
+    font-family: sans-serif;
+    color: fuchsia;
+    margin: 3% 3% 0 0;
+}
+@media screen and (max-width: 768px) {
+#content3 #guapo {
+    clear: both;
+    width: auto;
+}
+}
+@media screen and (max-width: 520px) {
+    #content3 #guapo {
+        float: none;
+        width: 85%;
+    }
+}
+#location {
+    text-align: center;
+    margin: auto;
+}
+
+#footer {
+    clear: both;
+    background-color: lightblue;
+}
+#hours {
+    float: left;
+}
+#friendlyLinks {
+    float: right;
+    display: block;
+    margin: 10px 100px 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+#clear {
+    clear: both;
+}
+@media screen and (max-width: 768px) {
+#hours {
+    margin-left: 10%;
+}
+    #friendlyLinks {
+        margin-right: 10%;
+    }
+}

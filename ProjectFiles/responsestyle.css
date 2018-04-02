@@ -1,0 +1,19 @@
+#response {
+    width: 20%;
+    margin: 5% 40% 1%;
+    background-color: lightblue;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#followUp {
+    width: 20%;
+    margin: 0 40% 5%;
+    background-color: lightblue;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
